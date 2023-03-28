@@ -4,16 +4,16 @@ object Dependencies {
   lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.2.13"
 
   lazy val kubernetesClient =
-    "com.goyeau" %% "kubernetes-client" % "0.8.1"
+    "com.goyeau" %% "kubernetes-client" % "0.9.0"
 
-  lazy val circeVersion = "0.14.2"
+  lazy val circeVersion = "0.14.3"
   lazy val circeExtra = "io.circe" %% "circe-generic-extras" % circeVersion
   lazy val circeCore = "io.circe" %% "circe-core" % circeVersion
 
   lazy val logbackClassic =
-    "ch.qos.logback" % "logback-classic" % "1.4.1"
+    "ch.qos.logback" % "logback-classic" % "1.4.5"
 
-  val pureConfigVersion = "0.17.1"
+  val pureConfigVersion = "0.17.2"
   lazy val pureConfig =
     "com.github.pureconfig" %% "pureconfig" % pureConfigVersion
 
