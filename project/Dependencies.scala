@@ -11,7 +11,7 @@ object Dependencies {
   lazy val circeCore = "io.circe" %% "circe-core" % circeVersion
 
   lazy val logbackClassic =
-    "ch.qos.logback" % "logback-classic" % "1.5.3"
+    "ch.qos.logback" % "logback-classic" % "1.5.25"
 
   val pureConfigVersion = "0.17.6"
   lazy val pureConfig =
