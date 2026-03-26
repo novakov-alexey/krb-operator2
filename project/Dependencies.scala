@@ -1,7 +1,7 @@
 import sbt._
 
 object Dependencies {
-  lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.2.18"
+  lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.2.20"
 
   lazy val kubernetesClient =
     "com.goyeau" %% "kubernetes-client" % "0.11.0"
