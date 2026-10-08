@@ -6,7 +6,7 @@ object Dependencies {
   lazy val kubernetesClient =
     "com.goyeau" %% "kubernetes-client" % "0.11.0"
 
-  lazy val circeVersion = "0.14.6"
+  lazy val circeVersion = "0.14.17"
   lazy val circeExtra = "io.circe" %% "circe-generic-extras" % "0.14.3"
   lazy val circeCore = "io.circe" %% "circe-core" % circeVersion
 
